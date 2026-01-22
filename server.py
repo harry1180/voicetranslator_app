@@ -14,8 +14,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_API_KEY")
-DEEPGRAM_API_KEY = "87a2edbe9275968ac8ff4a87ce988ff803a80457" 
+DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_API_KEY")
 if not DEEPGRAM_API_KEY:
     raise RuntimeError("Missing DEEPGRAM_API_KEY")
 
